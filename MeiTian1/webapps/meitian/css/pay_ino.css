@@ -1,0 +1,166 @@
+.body{
+	padding: 50px 80px;
+	background-color: #f5f5f5;
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.grzxbj{
+	
+	background-color: #fff;
+}
+.section {
+    margin-left: 48px;
+    margin-right: 48px;
+    overflow: hidden;
+    background-color: #fff;
+    color: #424242;
+}
+.section-address .section-header {
+    margin-bottom: 20px;
+}
+.uc-content-box {
+    margin: 0px;
+}
+.box-bd {
+    padding-top: 0px;
+    overflow: hidden;
+}
+.section-goods .goods-list li {
+    padding: 10px 0;
+}
+.section-goods .goods-list {
+    padding: 5px 0;
+    border-bottom: 1px solid #e0e0e0;
+     overflow: hidden;
+}
+.section-goods .goods-list .col {
+    float: left;
+    line-height: 30px;
+    color: #424242;
+}
+.section-goods .goods-list .col-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.section-goods .goods-list .col-img img{
+	width: 30px;
+	height: 30px;
+}
+.section-goods .goods-list .col-name {
+    width: 650px;
+}
+.section-goods .goods-list .col-price {
+    width: 150px;
+    text-align: center;
+}
+.section-goods .goods-list .col-total {
+    width: 250px;
+    text-align: right;
+    color: #ff6700;
+}
+.section-options {
+    padding: 25px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.section-options .section-header {
+    float: left;
+    width: 150px;
+}
+.section-options .section-body {
+    float: left;
+    color: red;
+}
+
+.section-count {
+    min-height: 200px;
+    padding: 20px 0;
+    position: relative;
+}
+.section-count .money-box {
+    position: absolute;
+    top:50px;
+    right: 0;
+    bottom: 20px;
+    text-align: right;
+}
+.section-count .money-box li {
+    display: block;
+    padding-left: 100px;
+    line-height: 2;
+    position: relative;
+    zoom: 1;
+}
+.section-count .money-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    color: #757575;
+    zoom: 1;
+}
+.section-count .money-box .val {
+    color: #ff6700;
+    zoom: 1;
+}
+.section-count .money-box .total-price {
+    margin-top: 10px;
+}
+.section-count .money-box .total-price em {
+    font-size: 30px;
+    line-height: 1;
+}
+.section-bar {
+    padding: 20px 48px;
+    border-top: 2px solid #f5f5f5;
+    overflow: hidden;
+}
+.btn{
+	width: 158px;
+    height: 38px;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    background: #ff6700;
+    border-color: #ff6700;
+    color: #fff;
+    min-width: 158px;
+}
+.header-title{
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+}
+.header-title h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: #424242;
+}
+.banner_x .logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

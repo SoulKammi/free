@@ -1,0 +1,30 @@
+body{
+	background-color: #fff;
+}
+.grzxbj {
+   padding:30px 0 0 0;
+   border-top: 1px solid #dcdcdc;
+   background-color: #fff;
+}
+.grzxbj .selfinfo {
+    width: 100%;
+    background-color: #fff;
+}
+.grzxbj .selfinfo .lfnav {
+    width:15%;
+    background-color: #f6f8f8;
+    margin-left: 5%;
+}
+.grzxbj .selfinfo .rtcont {
+    width: 80%;
+}
+.uc-main-box {
+    padding: 0;
+}
+.grzxbj .selfinfo .lfnav .rsubddzx ul li {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 0px;
+    text-align: center;
+}

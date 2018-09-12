@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>填写订单信息</title>
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/pay_ino.css">
+		<link rel="stylesheet" type="text/css" href="../css/city-picker.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+	
+		<script src="../js/city-picker.data.js"></script>
+		<script type="text/javascript" src="../js/city-picker.js"></script>
+	<script type="text/javascript">
+		function vis(){
+			var umenu = document.getElementById("user-menu");
+			
+			umenu.style.display="block";
+		}
+		function hid(){
+			var umenu = document.getElementById("user-menu");
+			umenu.style.display="none";
+		}
+	</script>
+	</head>
+	<body>
+	<!-- start header -->
+		<header>
+			<div class="top center">
+				<div class="left fl">
+					<ul>
+						<li><a href="http://www.mi.com/" target="_blank">美天书城</a></li>
+						<li>|</li>
+						<li><a href="">电子书</a></li>
+						<li>|</li>
+						<li><a href="">网络文学</a></li>
+						<li>|</li>
+						<li><a href="">租阅</a></li>
+						<li>|</li>
+						<li><a href="">多看阅读</a></li>
+						<li>|</li>
+						<li><a href="">当当阅读器</a></li>
+						<li>|</li>
+						<li><a href="">我要写书</a></li>
+						<li>|</li>
+						<li><a href="">当当阅读客户端</a></li>
+						<li>|</li>
+						<li><a href="">问题反馈</a></li>
+						<li>|</li>
+						<li><a href="">Select Region</a></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="right fr">
+				    <div class="gouwuche fr"><a href="gouwuche.html">购物车</a></div>
+					<div class="gouwuche fr"><a href="./dingdanzhongxin.html">我的订单</a></div>
+					<div class="fr">
+						<ul>						
+							<li><a href="#top">消息通知</a></li>
+						</ul>
+					</div>
+
+					<div class="gouwuche fr" id="user" onmouseover="vis()" onmouseout="hid()">
+						<span class="name">蔡静</span>
+						<ul id="user-menu" class="user-menu" style="display:none;">
+							<li><a>个人中心</a></li>
+							<li><a>我的书架</a></li>
+							<li><a>愿望清单</a></li>
+							<li><a>退出登陆</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+	<!--end header -->
+	<!-- start banner_x -->
+		<div class="banner_x center">
+			<a href="../index/index.html" target="_blank"><div class="logo fl"></div></a>
+			<div class="header-title fl"><h2>确认订单</h2></div>
+		</div>
+<!-- end banner_x -->
+
+	<div class="body">
+	<div class="grzxbj">
+	<div class="section section-address">
+		<div class="section-header">
+			<h3>收货地址</h3>
+		</div>
+		<div class="rtcont fl">
+			<div class="span16">
+			   
+			        <div class="uc-content-box">
+			            <div class="box-bd">
+			                <div class="user-address-list J_addressList aclearfix">
+			                    <div class="address-item address-item-new" id="J_newAddress"  onclick="openmodal()">
+			                        <i class="iconfont">➕</i>
+			                           添加新地址
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
+			    
+			</div>
+		</div>
+	</div>
+	<div class="section section-goods">
+		<ul class="goods-list">
+			<li>
+				<div class="col col-img">
+					<img alt="" src="../image/vbook_13.jpg">
+				</div>
+				<div class="col col-name">音乐是什么</div>
+				<div class="col col-price">️98元*1</div>
+				<div class="col col-total">98元</div>
+			</li>
+		</ul>
+		<ul class="goods-list">
+			<li>
+				<div class="col col-img">
+					<img alt="" src="../image/vbook_13.jpg">
+				</div>
+				<div class="col col-name">音乐是什么</div>
+				<div class="col col-price">️98元*1</div>
+				<div class="col col-total">98元</div>
+			</li>
+		</ul>
+		<ul class="goods-list">
+			<li>
+				<div class="col col-img">
+					<img alt="" src="../image/vbook_13.jpg">
+				</div>
+				<div class="col col-name">音乐是什么</div>
+				<div class="col col-price">️98元*1</div>
+				<div class="col col-total">98元</div>
+			</li>
+		</ul>
+	</div>
+	<div class="section section-options">
+		<div class="section-header">配送方式</div>
+		<div class="section-body">包邮</div>
+	</div>
+	<div class="section section-count">
+		<div class="money-box">
+			<ul>
+				<li class="fixclear">
+					<label>商品件数：</label>
+					<span class="val">1</span>
+				</li>
+				<li class="fixclear">
+					<label>商品总价：</label>
+					<span class="val">1000</span>
+				</li>
+				<li class="fixclear">
+					<label>优惠金额：</label>
+					<span class="val">1</span>
+				</li>
+				<li class="fixclear">
+					<label>运费：</label>
+					<span class="val">1</span>
+				</li>
+				<li class="fixclear total-price">
+					<label>应付总额：</label>
+					<span class="val">
+						<em>294</em>元
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="section-bar">
+		<div class="fl">蔡静 123456789 <br>湖北省 武穴市 </div>
+		<div class="fr">
+			<input type="button" class="btn" value="立即下单">
+		</div>
+	</div>
+	</div>	
+	</div>
+<!-- ********************** -->
+	<div class="modal" style="display: none">
+<!-- 头 -->
+		<div class="modal-header"> 
+			<span  class="title">添加收货地址</span>
+			<a class="close"   onclick="closemodal()">
+				<i class="iconfont">✖️</i>
+			</a>
+		</div>
+<!-- 中 -->		
+		<div class="modal-body">
+			<div class="aclearfix">
+				<div class="form-section form-name">
+					<input type="text" class="ainput-text" name="user_name" placeholder="收货人姓名">
+				</div>
+				<div class="form-section form-phone">
+					<input type="text" class="ainput-text" name="user_phone" placeholder="11位手机号码">
+				</div>
+				<div class="form-section form-address">
+					
+				        <div style="position: relative;" class="selec">
+				            <!-- container -->
+				            <input readonly type="text" data-toggle="city-picker" placeholder="选择省/市/区县/镇">
+				        </div>
+<script type="text/javascript">
+		function closemodal(){
+			$(".modal").css("display","none");
+			$(".modal-backdrop").css("display","none");
+			
+		}
+		function openmodal(){
+		   $(".modal").css("display","block");
+			$(".modal-backdrop").css("display","block");
+		}
+
+
+
+		function saveaddress(){
+			var username = $(".form-name>input").val();
+			var userphone = $(".form-phone>input").val();
+			var useraddress = $(".selec>input").val();
+			var userdetail = $(".form-address-detail>textarea").val();
+			var userzipecode = $(".form-zipecode>input").val();
+			var usertag = $(".form-tag>input").val();
+			
+			var $adddiv = $("<div class='address-item address-item-new'></div>")
+			var $adduspan = $("<span class='username'>"+username+"</span>");
+			var $addtspan = $("<span class='userphone'>"+userphone+"</span>");
+			var $addaspan = $("<span class='useraddress'>"+useraddress+"</span>");
+			var $adddspan = $("<span class='userdetail'>"+userdetail+"</span>");
+			var $addzspan = $("<span class='userzipecode'>"+userzipecode+"</span>");
+			var $addtaspan = $("<span class='usertag'>"+usertag+"</span>");
+			$adddiv.append($adduspan).append($addtspan).append($addaspan).append($adddspan).append($addzspan).append($addtaspan);
+			$(".box-bd>div").append($adddiv);
+			$(".modal").css("display","none");
+			$(".modal-backdrop").css("display","none");
+		}
+</script>				
+				  		
+						
+				</div>
+				<div class="form-section form-address-detail">
+					<textarea class="ainput-text detail" placeholder="详细地址"  id="detail"  name="user_address" ></textarea>
+				</div>
+				<div class="form-section form-zipecode">
+					<input type="text" class="ainput-text zipecodeinput" name="user_zipecode" placeholder="邮政编码" >
+				</div>
+				<div class="form-section form-tag">
+					<input type="text" class="ainput-text taginput" name="user_tag" placeholder="地址标签">
+				</div>
+			</div>
+		</div>
+<!-- 底 -->		
+	 <div class="modal-footer">
+	 	<a class="btn btn-primary" id="addressSave" onclick="saveaddress()">保存</a>
+	 	<a class="btn btn-gray" onclick="closemodal()">取消</a>
+	 </div> 
+	</div>
+<!-- self_info -->
+		
+		<footer class="mt20 center">			
+			<div class="mt20">美天网上书城|MeiTi|隐私政策|Select Region</div>
+			<div>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div>
+			<div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
+		</footer>
+		<div class="modal-backdrop" ></div>
+	</body>
+</html>
